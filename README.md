@@ -1,5 +1,11 @@
 # artifact-tool
 
+> **Experiment: reverse engineering Claude's Docs.** This project is a hands-on study of how Claude's Docs
+> feature appears to work, rebuilt from browser captures and the guidance Claude reported using (see
+> [agent-docs-findings-engineering.md](agent-docs-findings-engineering.md) for what was observed and what is
+> still unknown). It is an independent reimplementation of the observed workflow, not Anthropic's code, and is
+> not affiliated with or endorsed by Anthropic.
+
 Self-hosted living documents that AI agents write through tools. An agent creates an outline, fills one
 section at a time while you watch, and draws diagrams and charts as validated SVG. The viewer is read-only;
 agent edits are hash-guarded so concurrent agents never overwrite each other.
