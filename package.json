@@ -1,0 +1,19 @@
+{
+  "name": "artifact-tool",
+  "version": "0.1.0",
+  "description": "Self-hosted living documents that AI agents write through MCP/HTTP tools",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "marked": "^18.1.2",
+    "zod": "^4.6.7"
+  }
+}
